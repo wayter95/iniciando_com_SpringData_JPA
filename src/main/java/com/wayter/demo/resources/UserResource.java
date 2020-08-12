@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.wayter.demo.repository.Users;
 import com.wayter.demo.entities.User;
+
 @RestController
 @RequestMapping(value="/api")
 public class UserResource {
